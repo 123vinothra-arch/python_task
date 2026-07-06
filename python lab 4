@@ -1,0 +1,69 @@
+''' #task 1
+
+for i in range(1,100):
+  if i==50:
+           break
+  print (i)
+       
+# task 2
+correct_password=="vinoth123"
+while true:
+    user=int(input("enter a password:"))
+if correct==user :
+             print ("granted")
+                break
+else:
+            print ("incorrect password.")'''
+
+#task3
+'''for i in range(1,51):
+    if i%2==0:
+        continue
+    print(i)'''
+
+#task 4
+'''name = ("keerthika","jothi","sakthi","aarthi")
+for i in name:
+   if i=="jothi":
+       continue
+   print(i)'''
+  #task 5
+'''for i in range (1,11):
+    if i==5:
+        continue
+    print(i)'''
+#task 6
+'''for i in range(1,21):
+    if i%3==0:
+        continue
+    print(i)'''
+#task 7
+'''word= input("enter a string:")
+for ch in word:
+    if ch. lower() in "aeiou":
+        continue
+    print (ch)'''
+#task 8
+'''for i in range(1,6):
+    if i==3:
+        pass
+    print(i)'''
+#task 9
+'''class student:
+    pass
+obj= student( )
+print("empty class created suceesfully")'''
+#task 10
+'''i=1
+while i<=10:
+    print(i)
+    i+=1'''
+# task 11
+i=2
+while i<=10:
+    print(i)
+    i+=2
+
+
+
+
