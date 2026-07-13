@@ -1,0 +1,50 @@
+#List task
+a=[10,15,22,31,44,57,68,79,80,95]
+for i in a :
+    if i%2==0:
+        print(i)
+# task 2
+a=[12,44,33,6,90,2,67]
+print("largest number",max(a))
+print("smallest number",min(a))
+# task 3
+a=[10,20,30,40,50]
+total=sum(a)
+average=total/len(a)
+print("sum:",total)
+print("average:",average)
+#task 4
+a=[2,6,8,10,2,6]
+print(a.count(6))
+# task 5
+a=[3,6,8,9,4,2]
+print(a[-2])
+# task 6
+a=[10,20,30,40,50]
+b=[]
+for i in a :
+    b=[i]+b
+    print("reversed list:",b)
+# task 7
+a=[3,9,5,2,10,8,6]
+b=[1,8,7,3,9,6]
+c=a+b
+c.sort()
+print(c)
+# task 8
+a=[10,20,10,30,40,10,50,60,10]
+print(a.count(10))
+# task 9
+a=[11,12,21,22,43,46,51,56]
+even=[]
+odd=[]
+for i in a:
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+     print("Even list:",even)
+     print("odd list:",odd)
+
+
+      
