@@ -1,0 +1,75 @@
+# problem lab 1
+'''# task 1
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+print("Add=",a+b)
+print("sub=",a-b)
+print("mul=",a*b)
+print("div=",a/b)
+print("mod=",a%b)
+print("flr=",a//b)
+print("exp=",a**b)
+# task 2
+c=float(input("temperature in celsius:"))
+f=(c*1.8)+32
+print("temperature in fahrenheit:",f)
+# task 3
+p=float(input("enter the principal amount:"))
+r=float(input("enter the annual rate of interest:"))
+t=float(input("enter the time in years:"))
+simple_interest =(principal*rate*time)/100
+print("simple interest=",simple_interest)
+# task 4
+seconds=int(input("enter total seconds:"))
+minutes=seconds//60
+remaining_seconds=seconds%60
+print("minutes=",minutes)
+print("seconds=",remaining_seconds)
+# task 5
+mark1= int(input("enter the first mark:"))
+mark2= int(input("enter the second mark:"))
+mark3= int(input("enter the third mark:"))
+
+total=mark1+mark2+mark3
+average=total/3
+print("total mark=",total)
+print("average mark=",average)
+# task 6
+number=int(input("enter the 3 digit number:"))
+first=number//100
+second=(number//10)%10
+third=number%10
+print("first digit:",first)
+print("second digit:",second)
+print("third digit:",third)
+# task 7
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+
+a=a^b
+b=a^b
+a=a^b
+
+print("after swapping:")
+print("a=",a)
+print("b=",b)
+# task 8
+amount=int(input("enter withdrawal amount:"))
+five_hundred= amount//500
+one_hundred=(amount%500)//100
+
+print("500 notes:",five_hundred)
+# task 9
+days=int(input("enter the total number of days:"))
+week=days//7
+leftover_days=days%7
+
+print(week,"weeks and",leftover_days,"days")'''
+# task 10
+num= int(input("enter a 2-digit number:"))
+first=num//10
+second=num%10
+reverse=(second*10)+first
+
+print("reversed number:",reverse)
+
