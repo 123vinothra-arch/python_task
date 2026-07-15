@@ -1,0 +1,146 @@
+# task 1
+'''marks= int(input("enter the student's marks:"))
+if marks>=35:
+    print("pass")
+else:
+    print("fail")
+# task 2
+age= int(input("enter your age:"))
+if age>=18:
+    print("eligible to vote")
+else:
+    print("not eligible to vote")
+# task 3
+bill= int(input("enter the shopping bill amount:"))
+if bill>=5000:
+    discount = bill*0.10
+    final_amount = bill - discount
+else:
+    final_amount = bill
+
+print("Final Amount=",final_amount)
+# task 4
+stored_password = "python123"
+password= input("enter the password:")
+
+if password == stored_password:
+    print("password match")
+else:
+    print("password not match")
+# task 5
+marks = int(input("enter your marks:"))
+
+if marks>=90 and marks<=100:
+    print("Grade A")
+elif marks>=75 and marks<=89:
+    print("Grade B")
+elif marks>=50 and marks<=74:
+    print("Grade C")
+else:
+    print("Fail")
+# task 6
+a= int(input("enter first number:"))
+b= int(input("enter the second number:"))
+
+print("add=",a+b)
+print("sub=",a-b)
+print("mul=",a*b)
+print("div=",a/b)
+print("mod=",a%b)
+# task 7
+units= int(input("enter the units:"))
+
+if units<=100:
+    amount= units*2
+elif units<=200:
+    amount= units*3
+else:
+    amount= units*5
+
+print("electric bill=",amount)
+# task 8
+age= int(input("enter your age:"))
+if age<5:
+    print("Ticket Fare=free")
+elif age<=12:
+    print("Ticket Fare=50")
+else:
+    print("Ticket Fare=100")
+# task 9
+salary = int(input("enter your salary:"))
+credit_score = int(input("enter the credit score:"))
+
+if salary>30000:
+    if credit_score>700:
+       print("Loan Approved")
+else:
+       print("loan rejected due to low credit score")
+# task 10
+acadamic = int(input("enter acadamic percentage:"))
+entrance = int(input("enter entrance exam score:"))
+
+if acadamic>60:
+    if entrance>70:
+        print("Admission Approved")
+    else:
+        print("Admission Rejected(Entrance score must be above 70)")
+else:
+    print("Admission Rejected(Acadamic percentage must be above 60)")
+# task 11
+degree = int(input("enter degree percentage:"))
+aptitude = int(input("enter aptitude test score:"))
+
+if degree>65:
+    if aptitude>75:
+        print("candidate recruited")
+    else:
+        print("not recruited(apitude score must be above 75)")
+else:
+    print("not recruited(degree percentage must be above 65)
+# task 12
+marks= int(input("enter percentage:"))
+attendance= int(input("enter attendance percentage:"))
+
+if (marks>80):
+    if attendance>75:
+        print("scholarship awarded")
+    else:
+        print("scholarship not awarded(attendance must be above 75%)")
+else:
+    print("scholarship not awarded(mark must be above 80%)")
+# task 13
+balance = int(input("enter account balance:"))
+amount = int(input("enter withdrawal amount:"))
+pin = int(input("enter PIN"))
+
+correct_pin = 1234
+
+if balance>= amount:
+    if pin == correct_pin:
+        print("transaction successful")
+    else:
+        print("incorrect PIN")
+else:
+    print("insuffient balance")
+# task 14
+experience = int(input("enter years of experience:"))
+rating = int(input("enter perfomance rating:"))
+
+if experience>3:
+    if rating>=8:
+        print("bonus approved")
+    else:
+        print("bonus not approved(perfomance rating must be 8 or above)")
+else:
+    print("bonus not approved(experience must be more than 3 years)")
+# task 15
+hall_ticket = input("is the hall ticket available?(yes/no):")
+fees = input("all are fees cleared?(yes/no):")
+
+if hall_ticket == "yes":
+    if fees == "yes":
+       print("access granted to online examination")
+    else:
+       print("access denied(fees not cleared)")
+else:
+    print("access denied(hall ticket not available)")'''
