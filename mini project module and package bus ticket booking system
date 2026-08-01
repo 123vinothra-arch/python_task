@@ -1,0 +1,45 @@
+import math
+import random
+from datetime import datetime
+import numpy as np
+import pandas as pd
+
+# Passenger Details
+name = input("Enter Passenger Name: ")
+source = input("Enter Source: ")
+destination = input("Enter Destination: ")
+distance = int(input("Enter Distance (km): "))
+
+# math module
+fare = math.ceil(distance * 2.5)
+
+# random module
+seat_no = random.randint(1, 40)
+
+# datetime module
+booking_time = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
+
+# Ticket ID using random
+ticket_id = random.randint(1000, 9999)
+
+# pandas module
+ticket = pd.DataFrame({
+    "Passenger": [name],
+    "Source": [source],
+    "Destination": [destination],
+    "Distance": [distance],
+    "Fare": [fare],
+    "Seat": [seat_no],
+    "Ticket ID": [ticket_id],
+    "Booking Time": [booking_time]
+})
+
+# numpy module
+fare_array = np.array([fare])
+gst = fare_array * 0.05
+total = fare_array + gst
+
+print("\n------ BUS TICKET ------")
+print(ticket)
+print("\nGST (5%): ₹", gst[0])
+print("Total Fare: ₹", total[0])
