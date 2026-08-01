@@ -11,16 +11,16 @@ destination = input("Enter Destination: ")
 distance = int(input("Enter Distance (km): "))
 
 # math module
-fare = math.ceil(distance * 2.5)
+fare = math.ceil(distance * 2)
 
 # random module
-seat_no = random.randint(1, 40)
+seat_no = random.randint(1, 50)
 
 # datetime module
 booking_time = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
 
 # Ticket ID using random
-ticket_id = random.randint(1000, 9999)
+ticket_id = random.randint(1000, 5999)
 
 # pandas module
 ticket = pd.DataFrame({
